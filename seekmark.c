@@ -55,7 +55,7 @@ Versions:
 #include <sys/timeb.h>
 #include <pthread.h>
 
-char version[] = "SeekMark 0.9 (12/1/2011) by Marcus Sorensen";
+char version[] = "SeekMark 0.9.2 (8/27/2013) by Marcus Sorensen";
 
 char *file[255] = {""};//output file name
 int fd;
