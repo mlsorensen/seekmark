@@ -6,4 +6,4 @@ Version 0.9.1 adds a patch submitted by Stefan Seidel http://stefanseidel.info/ 
 
 Version 0.9.2 adds a 'sizelimit' parameter, in case one wants to benchmark a portion of a file/disk, or in case the disk size isn't properly detected
 
-To build, run: “gcc -o seekmark -lpthread seekmark-0.9.c” — make sure you have libpthread dev libraries installed!  Update: you can also try compiling against the library rather than linking the .so, “gcc -pthread -o seekmark seekmark-0.9.c”
+To build, just run: "make". You can also build manually via “gcc -o seekmark -lpthread seekmark.c”. make sure you have libpthread dev libraries installed!  Update: you can also try compiling against the library rather than linking the .so, “gcc -pthread -o seekmark seekmark.c”
